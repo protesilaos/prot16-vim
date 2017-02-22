@@ -8,7 +8,7 @@ Basic install:
 
 ```bash
 mkdir ~/.vim
-git clone https://github.com/flazz/vim-colorschemes.git ~/.vim
+git clone https://github.com/protesilaos/prot16-vim ~/.vim
 ```
 
 If you use [vundle](https://github.com/VundleVim/Vundle.vim):
