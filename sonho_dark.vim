@@ -1,7 +1,7 @@
 " Name: Sonho dark
 " Author: Protesilaos Stavrou <public@protesilaos.com>
 " URL: https://protesilaos.com/sonho
-" Version: 0.0.1.alpha-20170219
+" Version: 0.0.1.alpha-20170222
 " Note: This is an early version. May undergo significant changes.
 
 set background=dark
@@ -16,7 +16,7 @@ let g:colors_name = "sonho-dark"
 hi Normal guibg=#4A3638 guifg=#BAA6A8 ctermbg=none ctermfg=14
 
 hi Comment gui=italic guifg=#8A7678 cterm=italic ctermfg=11
-hi Todo gui=bold guifg=#479CB5 cterm=bold ctermfg=4
+hi Todo gui=bold guibg=#5A4648 guifg=#479CB5 cterm=bold ctermbg=0 ctermfg=4
 
 hi Warning gui=bold guibg=#D9A652 guifg=#FFF0F2 cterm=bold ctermbg=3 ctermfg=15
 hi Error gui=bold guibg=#CD4679 guifg=#FFF0F2 cterm=bold ctermbg=1 ctermfg=15
@@ -63,16 +63,18 @@ hi Delimeter guifg=#BAA6A8 ctermfg=14
 hi SpecialComment gui=bold guifg=#11BF8C cterm=bold ctermfg=2
 hi Debug guifg=#CD4679
 
-hi LineNr guifg=#5F5052 ctermfg=10
+" Other
+" -----------------
+hi LineNr guifg=#8A7678 ctermfg=11
 hi Cursor guifg=#BAA6A8 ctermfg=14
-hi CursorLine guibg=#5F5052 ctermbg=10
+hi CursorLine guibg=#8A7678 ctermbg=11
 hi CursorLineNr gui=bold guifg=#8F8082 cterm=bold ctermfg=12
-hi ColorColumn guibg=#5F5052 ctermbg=10
+hi ColorColumn guibg=#8A7678 ctermbg=11
 
 hi Folded guibg=#5A4648 guifg=#FFF0F2 ctermbg=0 ctermfg=15
 
-hi NonText guifg=#5F5052 ctermfg=10
-hi SpecialKey guifg=#5F5052 ctermfg=10
+hi NonText guifg=#8A7678 ctermfg=11
+hi SpecialKey guifg=#8A7678 ctermfg=11
 
 hi Directory guifg=#DD619F ctermfg=5
 hi SpecialKey guifg=#479CB5 ctermfg=4
@@ -83,6 +85,8 @@ hi VimGroup guifg=#DD619F ctermfg=5
 hi Underlined guifg=#D9766D ctermfg=9
 hi Ignore guifg=#11BF8C ctermfg=4
 
+" Diffs
+" -----------------
 hi DiffAdd guibg=#11BF8C guifg=#FFF0F2 ctermbg=2 ctermfg=15
 hi DiffDelete gui=bold guibg=#CD4679 guifg=#FFF0F2 ctermbg=1 cterm=bold ctermfg=15
 hi DiffChange guibg=#D9766D guifg=#FFF0F2 ctermbg=9 ctermfg=15

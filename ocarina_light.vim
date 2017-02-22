@@ -1,7 +1,7 @@
 " Name: Ocarina light
 " Author: Protesilaos Stavrou <public@protesilaos.com>
 " URL: https://protesilaos.com/ocarina
-" Version: 0.0.1.alpha-20170219
+" Version: 0.0.1.alpha-20170222
 " Note: This is an early version. May undergo significant changes.
 
 set background=light
@@ -16,7 +16,7 @@ let g:colors_name = "ocarina-light"
 hi Normal guibg=#EBEBE7 guifg=#6B6B67 ctermbg=none ctermfg=10
 
 hi Comment gui=italic guifg=#9B9B97 cterm=italic ctermfg=12
-hi Todo gui=bold guifg=#2AA2A5 cterm=bold ctermfg=4
+hi Todo gui=bold guibg=#DBDBD7 guifg=#2AA2A5 cterm=bold ctermbg=7 ctermfg=4
 
 hi Warning gui=bold guibg=#93A34A guifg=#212C2D cterm=bold ctermbg=3 ctermfg=8
 hi Error gui=bold guibg=#BA6F5B guifg=#212C2D cterm=bold ctermbg=1 ctermfg=8
@@ -63,16 +63,18 @@ hi Delimeter guifg=#6B6B67 ctermfg=10
 hi SpecialComment gui=bold guifg=#BA6F5B cterm=bold ctermfg=1
 hi Debug guifg=#A77B9B
 
-hi LineNr guifg=#919C9D ctermfg=14
+" Other
+" -----------------
+hi LineNr guifg=#9B9B97 ctermfg=12
 hi Cursor guifg=#6B6B67 ctermfg=10
-hi CursorLine guibg=#919C9D ctermbg=14
+hi CursorLine guibg=#9B9B97 ctermbg=12
 hi CursorLineNr gui=bold guifg=#616C6D cterm=bold ctermfg=11
-hi ColorColumn guibg=#919C9D ctermbg=14
+hi ColorColumn guibg=#9B9B97 ctermbg=12
 
 hi Folded guibg=#DBDBD7 guifg=#212C2D ctermbg=7 ctermfg=8
 
-hi NonText guifg=#919C9D ctermfg=14
-hi SpecialKey guifg=#919C9D ctermfg=14
+hi NonText guifg=#9B9B97 ctermfg=12
+hi SpecialKey guifg=#9B9B97 ctermfg=12
 
 hi Directory guifg=#3D9D54 ctermfg=2
 hi SpecialKey guifg=#2AA2A5 ctermfg=4
@@ -83,6 +85,8 @@ hi VimGroup guifg=#3D9D54 ctermfg=2
 hi Underlined guifg=#93A34A ctermfg=3
 hi Ignore guifg=#BA6F5B ctermfg=4
 
+" Diffs
+" -----------------
 hi DiffAdd guibg=#3D9D54 guifg=#212C2D ctermbg=2 ctermfg=8
 hi DiffDelete gui=bold guibg=#BA6F5B guifg=#212C2D ctermbg=1 cterm=bold ctermfg=8
 hi DiffChange guibg=#A2853A guifg=#212C2D ctermbg=9 ctermfg=8

@@ -1,7 +1,7 @@
 " Name: Symbiosis dark
 " Author: Protesilaos Stavrou <public@protesilaos.com>
 " URL: https://protesilaos.com/symbiosis
-" Version: 0.0.1.alpha-20170219
+" Version: 0.0.1.alpha-20170222
 " Note: This is an early version. May undergo significant changes.
 
 set background=dark
@@ -16,7 +16,7 @@ let g:colors_name = "symbiosis-dark"
 hi Normal guibg=#111D1C guifg=#A1ADAC ctermbg=none ctermfg=14
 
 hi Comment gui=italic guifg=#616D6C cterm=italic ctermfg=11
-hi Todo gui=bold guifg=#669824 cterm=bold ctermfg=2
+hi Todo gui=bold guibg=#212D2C guifg=#669824 cterm=bold ctermbg=0 ctermfg=2
 
 hi Warning gui=bold guibg=#A89641 guifg=#FCFAF9 cterm=bold ctermbg=3 ctermfg=15
 hi Error gui=bold guibg=#B95846 guifg=#FCFAF9 cterm=bold ctermbg=1 ctermfg=15
@@ -63,16 +63,18 @@ hi Delimeter guifg=#A1ADAC ctermfg=14
 hi SpecialComment gui=bold guifg=#A89641 cterm=bold ctermfg=3
 hi Debug guifg=#BB7EAA
 
-hi LineNr guifg=#4C4A49 ctermfg=10
+" Other
+" -----------------
+hi LineNr guifg=#616D6C ctermfg=11
 hi Cursor guifg=#A1ADAC ctermfg=14
-hi CursorLine guibg=#4C4A49 ctermbg=10
+hi CursorLine guibg=#616D6C ctermbg=11
 hi CursorLineNr gui=bold guifg=#8C8A89 cterm=bold ctermfg=12
-hi ColorColumn guibg=#4C4A49 ctermbg=10
+hi ColorColumn guibg=#616D6C ctermbg=11
 
 hi Folded guibg=#212D2C guifg=#FCFAF9 ctermbg=0 ctermfg=15
 
-hi NonText guifg=#4C4A49 ctermfg=10
-hi SpecialKey guifg=#4C4A49 ctermfg=10
+hi NonText guifg=#616D6C ctermfg=11
+hi SpecialKey guifg=#616D6C ctermfg=11
 
 hi Directory guifg=#9166AB ctermfg=13
 hi SpecialKey guifg=#669824 ctermfg=2
@@ -83,6 +85,8 @@ hi VimGroup guifg=#9166AB ctermfg=13
 hi Underlined guifg=#3D8CAD ctermfg=4
 hi Ignore guifg=#A89641 ctermfg=2
 
+" Diffs
+" -----------------
 hi DiffAdd guibg=#669824 guifg=#FCFAF9 ctermbg=2 ctermfg=15
 hi DiffDelete gui=bold guibg=#B95846 guifg=#FCFAF9 ctermbg=1 cterm=bold ctermfg=15
 hi DiffChange guibg=#A87226 guifg=#FCFAF9 ctermbg=9 ctermfg=15

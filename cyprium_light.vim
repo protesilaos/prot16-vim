@@ -1,7 +1,7 @@
 " Name: Cyprium light
 " Author: Protesilaos Stavrou <public@protesilaos.com>
 " URL: https://protesilaos.com/cyprium
-" Version: 0.0.1.alpha-20170219
+" Version: 0.0.1.alpha-20170222
 " Note: This is an early version. May undergo significant changes.
 
 set background=light
@@ -16,7 +16,7 @@ let g:colors_name = "cyprium-light"
 hi Normal guibg=#EBE9DA guifg=#6B695A ctermbg=none ctermfg=10
 
 hi Comment gui=italic guifg=#9B998A cterm=italic ctermfg=12
-hi Todo gui=bold guifg=#A36A5F cterm=bold ctermfg=1
+hi Todo gui=bold guibg=#DBD9CA guifg=#A36A5F cterm=bold ctermbg=7 ctermfg=1
 
 hi Warning gui=bold guibg=#A38E10 guifg=#374934 cterm=bold ctermbg=3 ctermfg=8
 hi Error gui=bold guibg=#A36A5F guifg=#374934 cterm=bold ctermbg=1 ctermfg=8
@@ -63,16 +63,18 @@ hi Delimeter guifg=#6B695A ctermfg=10
 hi SpecialComment gui=bold guifg=#8B85BA cterm=bold ctermfg=13
 hi Debug guifg=#BB6384
 
-hi LineNr guifg=#A7B9A4 ctermfg=14
+" Other
+" -----------------
+hi LineNr guifg=#9B998A ctermfg=12
 hi Cursor guifg=#6B695A ctermfg=10
-hi CursorLine guibg=#A7B9A4 ctermbg=14
+hi CursorLine guibg=#9B998A ctermbg=12
 hi CursorLineNr gui=bold guifg=#879984 cterm=bold ctermfg=11
-hi ColorColumn guibg=#A7B9A4 ctermbg=14
+hi ColorColumn guibg=#9B998A ctermbg=12
 
 hi Folded guibg=#DBD9CA guifg=#374934 ctermbg=7 ctermfg=8
 
-hi NonText guifg=#A7B9A4 ctermfg=14
-hi SpecialKey guifg=#A7B9A4 ctermfg=14
+hi NonText guifg=#9B998A ctermfg=12
+hi SpecialKey guifg=#9B998A ctermfg=12
 
 hi Directory guifg=#A38E10 ctermfg=3
 hi SpecialKey guifg=#A36A5F ctermfg=1
@@ -83,6 +85,8 @@ hi VimGroup guifg=#A38E10 ctermfg=3
 hi Underlined guifg=#5C9B85 ctermfg=6
 hi Ignore guifg=#8B85BA ctermfg=1
 
+" Diffs
+" -----------------
 hi DiffAdd guibg=#6B8C4A guifg=#374934 ctermbg=2 ctermfg=8
 hi DiffDelete gui=bold guibg=#A36A5F guifg=#374934 ctermbg=1 cterm=bold ctermfg=8
 hi DiffChange guibg=#B37521 guifg=#374934 ctermbg=9 ctermfg=8

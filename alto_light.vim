@@ -1,7 +1,7 @@
 " Name: Alto light
 " Author: Protesilaos Stavrou <public@protesilaos.com>
 " URL: https://protesilaos.com/alto
-" Version: 0.0.1.alpha-20170219
+" Version: 0.0.1.alpha-20170222
 " Note: This is an early version. May undergo significant changes.
 
 set background=light
@@ -16,7 +16,7 @@ let g:colors_name = "alto-light"
 hi Normal guibg=#FAFAEC guifg=#5A5A4C ctermbg=none ctermfg=10
 
 hi Comment gui=italic guifg=#8A8A7C cterm=italic ctermfg=12
-hi Todo gui=bold guifg=#C9753D cterm=bold ctermfg=9
+hi Todo gui=bold guibg=#EAEADC guifg=#C9753D cterm=bold ctermbg=7 ctermfg=9
 
 hi Warning gui=bold guibg=#C6A13D guifg=#182D2A cterm=bold ctermbg=3 ctermfg=8
 hi Error gui=bold guibg=#C6414D guifg=#182D2A cterm=bold ctermbg=1 ctermfg=8
@@ -63,16 +63,18 @@ hi Delimeter guifg=#5A5A4C ctermfg=10
 hi SpecialComment gui=bold guifg=#C6A13D cterm=bold ctermfg=3
 hi Debug guifg=#C6414D
 
-hi LineNr guifg=#98ADAA ctermfg=14
+" Other
+" -----------------
+hi LineNr guifg=#8A8A7C ctermfg=12
 hi Cursor guifg=#5A5A4C ctermfg=10
-hi CursorLine guibg=#98ADAA ctermbg=14
+hi CursorLine guibg=#8A8A7C ctermbg=12
 hi CursorLineNr gui=bold guifg=#687D7A cterm=bold ctermfg=11
-hi ColorColumn guibg=#98ADAA ctermbg=14
+hi ColorColumn guibg=#8A8A7C ctermbg=12
 
 hi Folded guibg=#EAEADC guifg=#182D2A ctermbg=7 ctermfg=8
 
-hi NonText guifg=#98ADAA ctermfg=14
-hi SpecialKey guifg=#98ADAA ctermfg=14
+hi NonText guifg=#8A8A7C ctermfg=12
+hi SpecialKey guifg=#8A8A7C ctermfg=12
 
 hi Directory guifg=#378BBD ctermfg=4
 hi SpecialKey guifg=#C9753D ctermfg=9
@@ -83,6 +85,8 @@ hi VimGroup guifg=#378BBD ctermfg=4
 hi Underlined guifg=#57AB8B ctermfg=6
 hi Ignore guifg=#C6A13D ctermfg=9
 
+" Diffs
+" -----------------
 hi DiffAdd guibg=#679945 guifg=#182D2A ctermbg=2 ctermfg=8
 hi DiffDelete gui=bold guibg=#C6414D guifg=#182D2A ctermbg=1 cterm=bold ctermfg=8
 hi DiffChange guibg=#C9753D guifg=#182D2A ctermbg=9 ctermfg=8

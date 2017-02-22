@@ -1,7 +1,7 @@
 " Name: Orionis dark
 " Author: Protesilaos Stavrou <public@protesilaos.com>
 " URL: https://protesilaos.com/orionis
-" Version: 0.0.1.alpha-20170219
+" Version: 0.0.1.alpha-20170222
 " Note: This is an early version. May undergo significant changes.
 
 set background=dark
@@ -16,7 +16,7 @@ let g:colors_name = "orionis-dark"
 hi Normal guibg=#1F2A2D guifg=#8F9A9D ctermbg=none ctermfg=14
 
 hi Comment gui=italic guifg=#5F6A6D cterm=italic ctermfg=11
-hi Todo gui=bold guifg=#974F6C cterm=bold ctermfg=1
+hi Todo gui=bold guibg=#2F3A3D guifg=#974F6C cterm=bold ctermbg=0 ctermfg=1
 
 hi Warning gui=bold guibg=#9A8F0C guifg=#EFF1F3 cterm=bold ctermbg=3 ctermfg=15
 hi Error gui=bold guibg=#974F6C guifg=#EFF1F3 cterm=bold ctermbg=1 ctermfg=15
@@ -63,16 +63,18 @@ hi Delimeter guifg=#8F9A9D ctermfg=14
 hi SpecialComment gui=bold guifg=#9D7427 cterm=bold ctermfg=9
 hi Debug guifg=#9A8F0C
 
-hi LineNr guifg=#5F6163 ctermfg=10
+" Other
+" -----------------
+hi LineNr guifg=#5F6A6D ctermfg=11
 hi Cursor guifg=#8F9A9D ctermfg=14
-hi CursorLine guibg=#5F6163 ctermbg=10
+hi CursorLine guibg=#5F6A6D ctermbg=11
 hi CursorLineNr gui=bold guifg=#8F9193 cterm=bold ctermfg=12
-hi ColorColumn guibg=#5F6163 ctermbg=10
+hi ColorColumn guibg=#5F6A6D ctermbg=11
 
 hi Folded guibg=#2F3A3D guifg=#EFF1F3 ctermbg=0 ctermfg=15
 
-hi NonText guifg=#5F6163 ctermfg=10
-hi SpecialKey guifg=#5F6163 ctermfg=10
+hi NonText guifg=#5F6A6D ctermfg=11
+hi SpecialKey guifg=#5F6A6D ctermfg=11
 
 hi Directory guifg=#AD6E8F ctermfg=5
 hi SpecialKey guifg=#974F6C ctermfg=1
@@ -83,6 +85,8 @@ hi VimGroup guifg=#AD6E8F ctermfg=5
 hi Underlined guifg=#52A6AD ctermfg=6
 hi Ignore guifg=#9D7427 ctermfg=1
 
+" Diffs
+" -----------------
 hi DiffAdd guibg=#5B935B guifg=#EFF1F3 ctermbg=2 ctermfg=15
 hi DiffDelete gui=bold guibg=#974F6C guifg=#EFF1F3 ctermbg=1 cterm=bold ctermfg=15
 hi DiffChange guibg=#9D7427 guifg=#EFF1F3 ctermbg=9 ctermfg=15

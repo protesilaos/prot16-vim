@@ -1,7 +1,7 @@
 " Name: Bionis light
 " Author: Protesilaos Stavrou <public@protesilaos.com>
 " URL: https://protesilaos.com/bionis
-" Version: 0.0.1.alpha-20170219
+" Version: 0.0.1.alpha-20170222
 " Note: This is an early version. May undergo significant changes.
 
 set background=light
@@ -16,7 +16,7 @@ let g:colors_name = "bionis-light"
 hi Normal guibg=#FBF8FD guifg=#4B484D ctermbg=none ctermfg=10
 
 hi Comment gui=italic guifg=#9B989D cterm=italic ctermfg=12
-hi Todo gui=bold guifg=#CB6832 cterm=bold ctermfg=9
+hi Todo gui=bold guibg=#EBE8ED guifg=#CB6832 cterm=bold ctermbg=7 ctermfg=9
 
 hi Warning gui=bold guibg=#BA8A00 guifg=#251A27 cterm=bold ctermbg=3 ctermfg=8
 hi Error gui=bold guibg=#C25A5B guifg=#251A27 cterm=bold ctermbg=1 ctermfg=8
@@ -63,16 +63,18 @@ hi Delimeter guifg=#4B484D ctermfg=10
 hi SpecialComment gui=bold guifg=#C25A5B cterm=bold ctermfg=1
 hi Debug guifg=#BA8A00
 
-hi LineNr guifg=#B5AAB7 ctermfg=14
+" Other
+" -----------------
+hi LineNr guifg=#9B989D ctermfg=12
 hi Cursor guifg=#4B484D ctermfg=10
-hi CursorLine guibg=#B5AAB7 ctermbg=14
+hi CursorLine guibg=#9B989D ctermbg=12
 hi CursorLineNr gui=bold guifg=#857A87 cterm=bold ctermfg=11
-hi ColorColumn guibg=#B5AAB7 ctermbg=14
+hi ColorColumn guibg=#9B989D ctermbg=12
 
 hi Folded guibg=#EBE8ED guifg=#251A27 ctermbg=7 ctermfg=8
 
-hi NonText guifg=#B5AAB7 ctermfg=14
-hi SpecialKey guifg=#B5AAB7 ctermfg=14
+hi NonText guifg=#9B989D ctermfg=12
+hi SpecialKey guifg=#9B989D ctermfg=12
 
 hi Directory guifg=#5A7ACD ctermfg=4
 hi SpecialKey guifg=#CB6832 ctermfg=9
@@ -83,6 +85,8 @@ hi VimGroup guifg=#5A7ACD ctermfg=4
 hi Underlined guifg=#C25783 ctermfg=5
 hi Ignore guifg=#C25A5B ctermfg=9
 
+" Diffs
+" -----------------
 hi DiffAdd guibg=#4DA35C guifg=#251A27 ctermbg=2 ctermfg=8
 hi DiffDelete gui=bold guibg=#C25A5B guifg=#251A27 ctermbg=1 cterm=bold ctermfg=8
 hi DiffChange guibg=#CB6832 guifg=#251A27 ctermbg=9 ctermfg=8

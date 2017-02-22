@@ -1,7 +1,7 @@
 " Name: Vin light
 " Author: Protesilaos Stavrou <public@protesilaos.com>
 " URL: https://protesilaos.com/vin
-" Version: 0.0.1.alpha-20170219
+" Version: 0.0.1.alpha-20170222
 " Note: This is an early version. May undergo significant changes.
 
 set background=light
@@ -16,7 +16,7 @@ let g:colors_name = "vin-light"
 hi Normal guibg=#EFFDD4 guifg=#3F4D24 ctermbg=none ctermfg=10
 
 hi Comment gui=italic guifg=#7F8D64 cterm=italic ctermfg=12
-hi Todo gui=bold guifg=#5A5DA8 cterm=bold ctermfg=4
+hi Todo gui=bold guibg=#DFEDC4 guifg=#5A5DA8 cterm=bold ctermbg=7 ctermfg=4
 
 hi Warning gui=bold guibg=#7D851D guifg=#101D04 cterm=bold ctermbg=3 ctermfg=8
 hi Error gui=bold guibg=#A3415C guifg=#101D04 cterm=bold ctermbg=1 ctermfg=8
@@ -63,16 +63,18 @@ hi Delimeter guifg=#3F4D24 ctermfg=10
 hi SpecialComment gui=bold guifg=#8D522D cterm=bold ctermfg=9
 hi Debug guifg=#7D851D
 
-hi LineNr guifg=#B0BDA4 ctermfg=14
+" Other
+" -----------------
+hi LineNr guifg=#7F8D64 ctermfg=12
 hi Cursor guifg=#3F4D24 ctermfg=10
-hi CursorLine guibg=#B0BDA4 ctermbg=14
+hi CursorLine guibg=#7F8D64 ctermbg=12
 hi CursorLineNr gui=bold guifg=#606D54 cterm=bold ctermfg=11
-hi ColorColumn guibg=#B0BDA4 ctermbg=14
+hi ColorColumn guibg=#7F8D64 ctermbg=12
 
 hi Folded guibg=#DFEDC4 guifg=#101D04 ctermbg=7 ctermfg=8
 
-hi NonText guifg=#B0BDA4 ctermfg=14
-hi SpecialKey guifg=#B0BDA4 ctermfg=14
+hi NonText guifg=#7F8D64 ctermfg=12
+hi SpecialKey guifg=#7F8D64 ctermfg=12
 
 hi Directory guifg=#487D14 ctermfg=4
 hi SpecialKey guifg=#5A5DA8 ctermfg=4
@@ -83,6 +85,8 @@ hi VimGroup guifg=#487D14 ctermfg=4
 hi Underlined guifg=#AC587A ctermfg=5
 hi Ignore guifg=#8D522D ctermfg=4
 
+" Diffs
+" -----------------
 hi DiffAdd guibg=#487D14 guifg=#101D04 ctermbg=2 ctermfg=8
 hi DiffDelete gui=bold guibg=#A3415C guifg=#101D04 ctermbg=1 cterm=bold ctermfg=8
 hi DiffChange guibg=#8D522D guifg=#101D04 ctermbg=9 ctermfg=8

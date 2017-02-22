@@ -1,7 +1,7 @@
 " Name: Magus dark
 " Author: Protesilaos Stavrou <public@protesilaos.com>
 " URL: https://protesilaos.com/magus
-" Version: 0.0.1.alpha-20170219
+" Version: 0.0.1.alpha-20170222
 " Note: This is an early version. May undergo significant changes.
 
 set background=dark
@@ -16,7 +16,7 @@ let g:colors_name = "magus-dark"
 hi Normal guibg=#322A29 guifg=#A29A99 ctermbg=none ctermfg=14
 
 hi Comment gui=italic guifg=#726A69 cterm=italic ctermfg=11
-hi Todo gui=bold guifg=#7A7DA7 cterm=bold ctermfg=13
+hi Todo gui=bold guibg=#423A39 guifg=#7A7DA7 cterm=bold ctermbg=0 ctermfg=13
 
 hi Warning gui=bold guibg=#C1A222 guifg=#F2EDE6 cterm=bold ctermbg=3 ctermfg=15
 hi Error gui=bold guibg=#BD5956 guifg=#F2EDE6 cterm=bold ctermbg=1 ctermfg=15
@@ -63,16 +63,18 @@ hi Delimeter guifg=#A29A99 ctermfg=14
 hi SpecialComment gui=bold guifg=#5C8CAA cterm=bold ctermfg=4
 hi Debug guifg=#B881A8
 
-hi LineNr guifg=#625D56 ctermfg=10
+" Other
+" -----------------
+hi LineNr guifg=#726A69 ctermfg=11
 hi Cursor guifg=#A29A99 ctermfg=14
-hi CursorLine guibg=#625D56 ctermbg=10
+hi CursorLine guibg=#726A69 ctermbg=11
 hi CursorLineNr gui=bold guifg=#A29D96 cterm=bold ctermfg=12
-hi ColorColumn guibg=#625D56 ctermbg=10
+hi ColorColumn guibg=#726A69 ctermbg=11
 
 hi Folded guibg=#423A39 guifg=#F2EDE6 ctermbg=0 ctermfg=15
 
-hi NonText guifg=#625D56 ctermfg=10
-hi SpecialKey guifg=#625D56 ctermfg=10
+hi NonText guifg=#726A69 ctermfg=11
+hi SpecialKey guifg=#726A69 ctermfg=11
 
 hi Directory guifg=#BB7321 ctermfg=9
 hi SpecialKey guifg=#7A7DA7 ctermfg=13
@@ -83,6 +85,8 @@ hi VimGroup guifg=#BB7321 ctermfg=9
 hi Underlined guifg=#65AB85 ctermfg=6
 hi Ignore guifg=#5C8CAA ctermfg=13
 
+" Diffs
+" -----------------
 hi DiffAdd guibg=#8B972A guifg=#F2EDE6 ctermbg=2 ctermfg=15
 hi DiffDelete gui=bold guibg=#BD5956 guifg=#F2EDE6 ctermbg=1 cterm=bold ctermfg=15
 hi DiffChange guibg=#BB7321 guifg=#F2EDE6 ctermbg=9 ctermfg=15

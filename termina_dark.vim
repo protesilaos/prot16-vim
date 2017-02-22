@@ -1,7 +1,7 @@
 " Name: Termina dark
 " Author: Protesilaos Stavrou <public@protesilaos.com>
 " URL: https://protesilaos.com/termina
-" Version: 0.0.1.alpha-20170219
+" Version: 0.0.1.alpha-20170222
 " Note: This is an early version. May undergo significant changes.
 
 set background=dark
@@ -16,7 +16,7 @@ let g:colors_name = "termina-dark"
 hi Normal guibg=#1A2225 guifg=#8A9295 ctermbg=none ctermfg=14
 
 hi Comment gui=italic guifg=#5A6265 cterm=italic ctermfg=11
-hi Todo gui=bold guifg=#A3636D cterm=bold ctermfg=5
+hi Todo gui=bold guibg=#2A3235 guifg=#A3636D cterm=bold ctermbg=0 ctermfg=5
 
 hi Warning gui=bold guibg=#9A813D guifg=#F1E2CD cterm=bold ctermbg=3 ctermfg=15
 hi Error gui=bold guibg=#985637 guifg=#F1E2CD cterm=bold ctermbg=1 ctermfg=15
@@ -63,16 +63,18 @@ hi Delimeter guifg=#8A9295 ctermfg=14
 hi SpecialComment gui=bold guifg=#9A813D cterm=bold ctermfg=3
 hi Debug guifg=#985637
 
-hi LineNr guifg=#71624D ctermfg=10
+" Other
+" -----------------
+hi LineNr guifg=#5A6265 ctermfg=11
 hi Cursor guifg=#8A9295 ctermfg=14
-hi CursorLine guibg=#71624D ctermbg=10
+hi CursorLine guibg=#5A6265 ctermbg=11
 hi CursorLineNr gui=bold guifg=#A1927D cterm=bold ctermfg=12
-hi ColorColumn guibg=#71624D ctermbg=10
+hi ColorColumn guibg=#5A6265 ctermbg=11
 
 hi Folded guibg=#2A3235 guifg=#F1E2CD ctermbg=0 ctermfg=15
 
-hi NonText guifg=#71624D ctermfg=10
-hi SpecialKey guifg=#71624D ctermfg=10
+hi NonText guifg=#5A6265 ctermfg=11
+hi SpecialKey guifg=#5A6265 ctermfg=11
 
 hi Directory guifg=#597899 ctermfg=4
 hi SpecialKey guifg=#A3636D ctermfg=5
@@ -83,6 +85,8 @@ hi VimGroup guifg=#597899 ctermfg=4
 hi Underlined guifg=#629298 ctermfg=6
 hi Ignore guifg=#9A813D ctermfg=5
 
+" Diffs
+" -----------------
 hi DiffAdd guibg=#728852 guifg=#F1E2CD ctermbg=2 ctermfg=15
 hi DiffDelete gui=bold guibg=#985637 guifg=#F1E2CD ctermbg=1 cterm=bold ctermfg=15
 hi DiffChange guibg=#9D6A47 guifg=#F1E2CD ctermbg=9 ctermfg=15

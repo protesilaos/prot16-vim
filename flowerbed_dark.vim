@@ -1,7 +1,7 @@
 " Name: Flowerbed dark
 " Author: Protesilaos Stavrou <public@protesilaos.com>
 " URL: https://protesilaos.com/flowerbed
-" Version: 0.0.1.alpha-20170219
+" Version: 0.0.1.alpha-20170222
 " Note: This is an early version. May undergo significant changes.
 
 set background=dark
@@ -16,7 +16,7 @@ let g:colors_name = "flowerbed-dark"
 hi Normal guibg=#233949 guifg=#A3B9C9 ctermbg=none ctermfg=14
 
 hi Comment gui=italic guifg=#738999 cterm=italic ctermfg=11
-hi Todo gui=bold guifg=#D89A47 cterm=bold ctermfg=9
+hi Todo gui=bold guibg=#334959 guifg=#D89A47 cterm=bold ctermbg=0 ctermfg=9
 
 hi Warning gui=bold guibg=#CD9A8A guifg=#ECF3F2 cterm=bold ctermbg=3 ctermfg=15
 hi Error gui=bold guibg=#D86A87 guifg=#ECF3F2 cterm=bold ctermbg=1 ctermfg=15
@@ -63,16 +63,18 @@ hi Delimeter guifg=#A3B9C9 ctermfg=14
 hi SpecialComment gui=bold guifg=#D86A87 cterm=bold ctermfg=1
 hi Debug guifg=#CD9A8A
 
-hi LineNr guifg=#5C6362 ctermfg=10
+" Other
+" -----------------
+hi LineNr guifg=#738999 ctermfg=11
 hi Cursor guifg=#A3B9C9 ctermfg=14
-hi CursorLine guibg=#5C6362 ctermbg=10
+hi CursorLine guibg=#738999 ctermbg=11
 hi CursorLineNr gui=bold guifg=#8C9392 cterm=bold ctermfg=12
-hi ColorColumn guibg=#5C6362 ctermbg=10
+hi ColorColumn guibg=#738999 ctermbg=11
 
 hi Folded guibg=#334959 guifg=#ECF3F2 ctermbg=0 ctermfg=15
 
-hi NonText guifg=#5C6362 ctermfg=10
-hi SpecialKey guifg=#5C6362 ctermfg=10
+hi NonText guifg=#738999 ctermfg=11
+hi SpecialKey guifg=#738999 ctermfg=11
 
 hi Directory guifg=#1CABA1 ctermfg=6
 hi SpecialKey guifg=#D89A47 ctermfg=9
@@ -83,6 +85,8 @@ hi VimGroup guifg=#1CABA1 ctermfg=6
 hi Underlined guifg=#7988CA ctermfg=13
 hi Ignore guifg=#D86A87 ctermfg=9
 
+" Diffs
+" -----------------
 hi DiffAdd guibg=#5CBC7D guifg=#ECF3F2 ctermbg=2 ctermfg=15
 hi DiffDelete gui=bold guibg=#D86A87 guifg=#ECF3F2 ctermbg=1 cterm=bold ctermfg=15
 hi DiffChange guibg=#D89A47 guifg=#ECF3F2 ctermbg=9 ctermfg=15

@@ -1,7 +1,7 @@
 " Name: Blau light
 " Author: Protesilaos Stavrou <public@protesilaos.com>
 " URL: https://protesilaos.com/blau
-" Version: 0.0.1.alpha-20170219
+" Version: 0.0.1.alpha-20170222
 " Note: This is an early version. May undergo significant changes.
 
 set background=light
@@ -16,7 +16,7 @@ let g:colors_name = "blau-light"
 hi Normal guibg=#DFDCDE guifg=#4F4C4E ctermbg=none ctermfg=10
 
 hi Comment gui=italic guifg=#7F7C7E cterm=italic ctermfg=12
-hi Todo gui=bold guifg=#BB8B11 cterm=bold ctermfg=3
+hi Todo gui=bold guibg=#CFCCCE guifg=#BB8B11 cterm=bold ctermbg=7 ctermfg=3
 
 hi Warning gui=bold guibg=#BB8B11 guifg=#28282F cterm=bold ctermbg=3 ctermfg=8
 hi Error gui=bold guibg=#A43D56 guifg=#28282F cterm=bold ctermbg=1 ctermfg=8
@@ -63,16 +63,18 @@ hi Delimeter guifg=#4F4C4E ctermfg=10
 hi SpecialComment gui=bold guifg=#3BA67A cterm=bold ctermfg=2
 hi Debug guifg=#BB651B
 
-hi LineNr guifg=#98989F ctermfg=14
+" Other
+" -----------------
+hi LineNr guifg=#7F7C7E ctermfg=12
 hi Cursor guifg=#4F4C4E ctermfg=10
-hi CursorLine guibg=#98989F ctermbg=14
+hi CursorLine guibg=#7F7C7E ctermbg=12
 hi CursorLineNr gui=bold guifg=#68686F cterm=bold ctermfg=11
-hi ColorColumn guibg=#98989F ctermbg=14
+hi ColorColumn guibg=#7F7C7E ctermbg=12
 
 hi Folded guibg=#CFCCCE guifg=#28282F ctermbg=7 ctermfg=8
 
-hi NonText guifg=#98989F ctermfg=14
-hi SpecialKey guifg=#98989F ctermfg=14
+hi NonText guifg=#7F7C7E ctermfg=12
+hi SpecialKey guifg=#7F7C7E ctermfg=12
 
 hi Directory guifg=#A43D56 ctermfg=1
 hi SpecialKey guifg=#BB8B11 ctermfg=3
@@ -83,6 +85,8 @@ hi VimGroup guifg=#A43D56 ctermfg=1
 hi Underlined guifg=#2F95A5 ctermfg=6
 hi Ignore guifg=#3BA67A ctermfg=3
 
+" Diffs
+" -----------------
 hi DiffAdd guibg=#3BA67A guifg=#28282F ctermbg=2 ctermfg=8
 hi DiffDelete gui=bold guibg=#A43D56 guifg=#28282F ctermbg=1 cterm=bold ctermfg=8
 hi DiffChange guibg=#BB651B guifg=#28282F ctermbg=9 ctermfg=8

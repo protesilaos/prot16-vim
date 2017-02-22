@@ -1,7 +1,7 @@
 " Name: Caprice light
 " Author: Protesilaos Stavrou <public@protesilaos.com>
 " URL: https://protesilaos.com/caprice
-" Version: 0.0.1.alpha-20170219
+" Version: 0.0.1.alpha-20170222
 " Note: This is an early version. May undergo significant changes.
 
 set background=light
@@ -16,7 +16,7 @@ let g:colors_name = "caprice-light"
 hi Normal guibg=#FEFBFC guifg=#2E2B2C ctermbg=none ctermfg=10
 
 hi Comment gui=italic guifg=#7E7B7C cterm=italic ctermfg=12
-hi Todo gui=bold guifg=#983D4F cterm=bold ctermfg=1
+hi Todo gui=bold guibg=#EEEBEC guifg=#983D4F cterm=bold ctermbg=7 ctermfg=1
 
 hi Warning gui=bold guibg=#A58A30 guifg=#211B29 cterm=bold ctermbg=3 ctermfg=8
 hi Error gui=bold guibg=#983D4F guifg=#211B29 cterm=bold ctermbg=1 ctermfg=8
@@ -63,16 +63,18 @@ hi Delimeter guifg=#2E2B2C ctermfg=10
 hi SpecialComment gui=bold guifg=#9A5D38 cterm=bold ctermfg=9
 hi Debug guifg=#A58A30
 
-hi LineNr guifg=#A19BA9 ctermfg=14
+" Other
+" -----------------
+hi LineNr guifg=#7E7B7C ctermfg=12
 hi Cursor guifg=#2E2B2C ctermfg=10
-hi CursorLine guibg=#A19BA9 ctermbg=14
+hi CursorLine guibg=#7E7B7C ctermbg=12
 hi CursorLineNr gui=bold guifg=#716B79 cterm=bold ctermfg=11
-hi ColorColumn guibg=#A19BA9 ctermbg=14
+hi ColorColumn guibg=#7E7B7C ctermbg=12
 
 hi Folded guibg=#EEEBEC guifg=#211B29 ctermbg=7 ctermfg=8
 
-hi NonText guifg=#A19BA9 ctermfg=14
-hi SpecialKey guifg=#A19BA9 ctermfg=14
+hi NonText guifg=#7E7B7C ctermfg=12
+hi SpecialKey guifg=#7E7B7C ctermfg=12
 
 hi Directory guifg=#8955A2 ctermfg=13
 hi SpecialKey guifg=#983D4F ctermfg=1
@@ -83,6 +85,8 @@ hi VimGroup guifg=#8955A2 ctermfg=13
 hi Underlined guifg=#587EBC ctermfg=6
 hi Ignore guifg=#9A5D38 ctermfg=1
 
+" Diffs
+" -----------------
 hi DiffAdd guibg=#278975 guifg=#211B29 ctermbg=2 ctermfg=8
 hi DiffDelete gui=bold guibg=#983D4F guifg=#211B29 ctermbg=1 cterm=bold ctermfg=8
 hi DiffChange guibg=#9A5D38 guifg=#211B29 ctermbg=9 ctermfg=8

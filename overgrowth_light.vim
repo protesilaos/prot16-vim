@@ -1,7 +1,7 @@
 " Name: Overgrowth light
 " Author: Protesilaos Stavrou <public@protesilaos.com>
 " URL: https://protesilaos.com/overgrowth
-" Version: 0.0.1.alpha-20170219
+" Version: 0.0.1.alpha-20170222
 " Note: This is an early version. May undergo significant changes.
 
 set background=light
@@ -16,7 +16,7 @@ let g:colors_name = "overgrowth-light"
 hi Normal guibg=#E6E5D2 guifg=#767562 ctermbg=none ctermfg=10
 
 hi Comment gui=italic guifg=#A6A592 cterm=italic ctermfg=12
-hi Todo gui=bold guifg=#359FCA cterm=bold ctermfg=4
+hi Todo gui=bold guibg=#D6D5C2 guifg=#359FCA cterm=bold ctermbg=7 ctermfg=4
 
 hi Warning gui=bold guibg=#A8950D guifg=#233F34 cterm=bold ctermbg=3 ctermfg=8
 hi Error gui=bold guibg=#CA6A4A guifg=#233F34 cterm=bold ctermbg=1 ctermfg=8
@@ -63,16 +63,18 @@ hi Delimeter guifg=#767562 ctermfg=10
 hi SpecialComment gui=bold guifg=#8A6EBB cterm=bold ctermfg=13
 hi Debug guifg=#15B59B
 
-hi LineNr guifg=#93AFA4 ctermfg=14
+" Other
+" -----------------
+hi LineNr guifg=#A6A592 ctermfg=12
 hi Cursor guifg=#767562 ctermfg=10
-hi CursorLine guibg=#93AFA4 ctermbg=14
+hi CursorLine guibg=#A6A592 ctermbg=12
 hi CursorLineNr gui=bold guifg=#637F74 cterm=bold ctermfg=11
-hi ColorColumn guibg=#93AFA4 ctermbg=14
+hi ColorColumn guibg=#A6A592 ctermbg=12
 
 hi Folded guibg=#D6D5C2 guifg=#233F34 ctermbg=7 ctermfg=8
 
-hi NonText guifg=#93AFA4 ctermfg=14
-hi SpecialKey guifg=#93AFA4 ctermfg=14
+hi NonText guifg=#A6A592 ctermfg=12
+hi SpecialKey guifg=#A6A592 ctermfg=12
 
 hi Directory guifg=#4BA212 ctermfg=4
 hi SpecialKey guifg=#359FCA ctermfg=4
@@ -83,6 +85,8 @@ hi VimGroup guifg=#4BA212 ctermfg=4
 hi Underlined guifg=#A8950D ctermfg=3
 hi Ignore guifg=#8A6EBB ctermfg=4
 
+" Diffs
+" -----------------
 hi DiffAdd guibg=#4BA212 guifg=#233F34 ctermbg=2 ctermfg=8
 hi DiffDelete gui=bold guibg=#CA6A4A guifg=#233F34 ctermbg=1 cterm=bold ctermfg=8
 hi DiffChange guibg=#BB7628 guifg=#233F34 ctermbg=9 ctermfg=8

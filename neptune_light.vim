@@ -1,7 +1,7 @@
 " Name: Neptune light
 " Author: Protesilaos Stavrou <public@protesilaos.com>
 " URL: https://protesilaos.com/neptune
-" Version: 0.0.1.alpha-20170219
+" Version: 0.0.1.alpha-20170222
 " Note: This is an early version. May undergo significant changes.
 
 set background=light
@@ -16,7 +16,7 @@ let g:colors_name = "neptune-light"
 hi Normal guibg=#F0F1F8 guifg=#404148 ctermbg=none ctermfg=10
 
 hi Comment gui=italic guifg=#808188 cterm=italic ctermfg=12
-hi Todo gui=bold guifg=#A97552 cterm=bold ctermfg=1
+hi Todo gui=bold guibg=#E0E1E8 guifg=#A97552 cterm=bold ctermbg=7 ctermfg=1
 
 hi Warning gui=bold guibg=#B9A552 guifg=#282C36 cterm=bold ctermbg=3 ctermfg=8
 hi Error gui=bold guibg=#A97552 guifg=#282C36 cterm=bold ctermbg=1 ctermfg=8
@@ -63,16 +63,18 @@ hi Delimeter guifg=#404148 ctermfg=10
 hi SpecialComment gui=bold guifg=#C78956 cterm=bold ctermfg=9
 hi Debug guifg=#B9A552
 
-hi LineNr guifg=#A8ACB6 ctermfg=14
+" Other
+" -----------------
+hi LineNr guifg=#808188 ctermfg=12
 hi Cursor guifg=#404148 ctermfg=10
-hi CursorLine guibg=#A8ACB6 ctermbg=14
+hi CursorLine guibg=#808188 ctermbg=12
 hi CursorLineNr gui=bold guifg=#686C76 cterm=bold ctermfg=11
-hi ColorColumn guibg=#A8ACB6 ctermbg=14
+hi ColorColumn guibg=#808188 ctermbg=12
 
 hi Folded guibg=#E0E1E8 guifg=#282C36 ctermbg=7 ctermfg=8
 
-hi NonText guifg=#A8ACB6 ctermfg=14
-hi SpecialKey guifg=#A8ACB6 ctermfg=14
+hi NonText guifg=#808188 ctermfg=12
+hi SpecialKey guifg=#808188 ctermfg=12
 
 hi Directory guifg=#3C8CBB ctermfg=4
 hi SpecialKey guifg=#A97552 ctermfg=1
@@ -83,6 +85,8 @@ hi VimGroup guifg=#3C8CBB ctermfg=4
 hi Underlined guifg=#7A7DCA ctermfg=13
 hi Ignore guifg=#C78956 ctermfg=1
 
+" Diffs
+" -----------------
 hi DiffAdd guibg=#48B788 guifg=#282C36 ctermbg=2 ctermfg=8
 hi DiffDelete gui=bold guibg=#A97552 guifg=#282C36 ctermbg=1 cterm=bold ctermfg=8
 hi DiffChange guibg=#C78956 guifg=#282C36 ctermbg=9 ctermfg=8

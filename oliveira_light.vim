@@ -1,7 +1,7 @@
 " Name: Oliveira light
 " Author: Protesilaos Stavrou <public@protesilaos.com>
 " URL: https://protesilaos.com/oliveira
-" Version: 0.0.1.alpha-20170219
+" Version: 0.0.1.alpha-20170222
 " Note: This is an early version. May undergo significant changes.
 
 set background=light
@@ -16,7 +16,7 @@ let g:colors_name = "oliveira-light"
 hi Normal guibg=#F1F3EB guifg=#51534B ctermbg=none ctermfg=10
 
 hi Comment gui=italic guifg=#91938B cterm=italic ctermfg=12
-hi Todo gui=bold guifg=#A35C35 cterm=bold ctermfg=9
+hi Todo gui=bold guibg=#E1E3DB guifg=#A35C35 cterm=bold ctermbg=7 ctermfg=9
 
 hi Warning gui=bold guibg=#A59520 guifg=#252922 cterm=bold ctermbg=3 ctermfg=8
 hi Error gui=bold guibg=#A64E3C guifg=#252922 cterm=bold ctermbg=1 ctermfg=8
@@ -63,16 +63,18 @@ hi Delimeter guifg=#51534B ctermfg=10
 hi SpecialComment gui=bold guifg=#A59520 cterm=bold ctermfg=3
 hi Debug guifg=#A64E3C
 
-hi LineNr guifg=#959992 ctermfg=14
+" Other
+" -----------------
+hi LineNr guifg=#91938B ctermfg=12
 hi Cursor guifg=#51534B ctermfg=10
-hi CursorLine guibg=#959992 ctermbg=14
+hi CursorLine guibg=#91938B ctermbg=12
 hi CursorLineNr gui=bold guifg=#757972 cterm=bold ctermfg=11
-hi ColorColumn guibg=#959992 ctermbg=14
+hi ColorColumn guibg=#91938B ctermbg=12
 
 hi Folded guibg=#E1E3DB guifg=#252922 ctermbg=7 ctermfg=8
 
-hi NonText guifg=#959992 ctermfg=14
-hi SpecialKey guifg=#959992 ctermfg=14
+hi NonText guifg=#91938B ctermfg=12
+hi SpecialKey guifg=#91938B ctermfg=12
 
 hi Directory guifg=#5CA15A ctermfg=2
 hi SpecialKey guifg=#A35C35 ctermfg=9
@@ -83,6 +85,8 @@ hi VimGroup guifg=#5CA15A ctermfg=2
 hi Underlined guifg=#5CAA9A ctermfg=6
 hi Ignore guifg=#A59520 ctermfg=9
 
+" Diffs
+" -----------------
 hi DiffAdd guibg=#5CA15A guifg=#252922 ctermbg=2 ctermfg=8
 hi DiffDelete gui=bold guibg=#A64E3C guifg=#252922 ctermbg=1 cterm=bold ctermfg=8
 hi DiffChange guibg=#A35C35 guifg=#252922 ctermbg=9 ctermfg=8
