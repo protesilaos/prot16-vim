@@ -4,19 +4,28 @@
 
 ## Installation
 
-Basic install:
-
-```bash
-mkdir ~/.vim
-git clone https://github.com/protesilaos/prot16-vim ~/.vim
-```
-
 If you use [vundle](https://github.com/VundleVim/Vundle.vim):
 
 ```
 " add to .vimrc
 Plugin 'protesilaos/prot16-vim'
 :PluginInstall
+```
+
+## Use
+
+Example using the `alto_dark` theme.
+
+In your `.vimrc` file add this:
+
+```
+colorscheme alto_dark
+```
+
+Or for a temporary switch within Vim:
+
+```
+:colorscheme alto_dark
 ```
 
 ## About this repo
