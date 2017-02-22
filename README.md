@@ -13,7 +13,7 @@ git clone https://github.com/flazz/vim-colorschemes.git ~/.vim
 
 If you use [vundle](https://github.com/VundleVim/Vundle.vim):
 
-```bash
+```
 " add to .vimrc
 Plugin 'protesilaos/prot16-vim'
 :PluginInstall
