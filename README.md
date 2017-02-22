@@ -2,11 +2,28 @@
 
 **EXPERIMENTAL. All Vim files may undergo further changes.**
 
+## Installation
+
+Basic install:
+
+```bash
+mkdir ~/.vim
+git clone https://github.com/flazz/vim-colorschemes.git ~/.vim
+```
+
+If you use [vundle](https://github.com/VundleVim/Vundle.vim):
+
+```bash
+" add to .vimrc
+Plugin 'protesilaos/prot16-vim'
+:PluginInstall
+```
+
+## About this repo
+
 The Prot16 collection was initially developed for the Atom text editor. This repository contains preliminary/experimental ports for Vim. Support is provided both for GUI and terminal versions. 
 
-However, the latter requires the implementation of the corresponding palette. This can be done either manually or by using one of the existing ports, as defined in each theme's project page.
-
-For more on that refer to the following:
+However, the latter requires the implementation of the corresponding palette. This can be done either manually or by using one of the existing ports, as defined in each theme's project page. For more on that refer to the following:
 
 - Prot16 project pages: https://protesilaos.com/schemes
 - Prot16 main git repo: https://github.com/protesilaos/prot16
