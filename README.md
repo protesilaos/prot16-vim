@@ -4,12 +4,12 @@
 
 ## Installation
 
-If you use [vundle](https://github.com/VundleVim/Vundle.vim):
+Use your favourite plugin manager.
 
-```
-" add to .vimrc
-Plugin 'protesilaos/prot16-vim'
-:PluginInstall
+With [vim-plug](https://github.com/junegunn/vim-plug):
+
+```vim
+Plug 'protesilaos/prot16-vim'
 ```
 
 ## Use
