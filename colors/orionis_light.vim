@@ -67,8 +67,8 @@ hi Debug guifg=#9A8F0C
 " -----------------
 hi LineNr guifg=#8F9193 ctermfg=12
 hi Cursor guifg=#5F6163 ctermfg=10
-hi CursorLine guibg=#8F9193 ctermbg=12
-hi CursorLineNr gui=bold guifg=#5F6A6D cterm=bold ctermfg=11
+hi CursorLine gui=none guibg=#DFE1E3 cterm=none ctermbg=7
+hi CursorLineNr gui=bold guibg=#DFE1E3 guifg=#5F6A6D cterm=bold ctermbg=7 ctermfg=11
 hi ColorColumn guibg=#8F9193 ctermbg=12
 
 hi Folded guibg=#DFE1E3 guifg=#1F2A2D ctermbg=7 ctermfg=8
