@@ -1,7 +1,7 @@
 " Name: Bionis light
 " Author: Protesilaos Stavrou <public@protesilaos.com>
 " URL: https://protesilaos.com/bionis
-" Version: 0.0.1.alpha-20170222
+" Version: 0.0.1.alpha-20170226
 " Note: This is an early version. May undergo significant changes.
 
 set background=light
@@ -9,7 +9,7 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name = "bionis-light"
+let g:colors_name = "bionis_light"
 
 " General
 " -----------------

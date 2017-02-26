@@ -1,7 +1,7 @@
 " Name: Ficus dark
 " Author: Protesilaos Stavrou <public@protesilaos.com>
 " URL: https://protesilaos.com/ficus
-" Version: 0.0.1.alpha-20170222
+" Version: 0.0.1.alpha-20170226
 " Note: This is an early version. May undergo significant changes.
 
 set background=dark
@@ -9,7 +9,7 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name = "ficus-dark"
+let g:colors_name = "ficus_dark"
 
 " General
 " -----------------

@@ -1,7 +1,7 @@
 " Name: Ocarina dark
 " Author: Protesilaos Stavrou <public@protesilaos.com>
 " URL: https://protesilaos.com/ocarina
-" Version: 0.0.1.alpha-20170222
+" Version: 0.0.1.alpha-20170226
 " Note: This is an early version. May undergo significant changes.
 
 set background=dark
@@ -9,7 +9,7 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name = "ocarina-dark"
+let g:colors_name = "ocarina_dark"
 
 " General
 " -----------------

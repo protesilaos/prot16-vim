@@ -1,7 +1,7 @@
 " Name: Neptune light
 " Author: Protesilaos Stavrou <public@protesilaos.com>
 " URL: https://protesilaos.com/neptune
-" Version: 0.0.1.alpha-20170222
+" Version: 0.0.1.alpha-20170226
 " Note: This is an early version. May undergo significant changes.
 
 set background=light
@@ -9,7 +9,7 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name = "neptune-light"
+let g:colors_name = "neptune_light"
 
 " General
 " -----------------
