@@ -34,7 +34,7 @@ hi StorageClass guifg=#BAA6A8 ctermfg=14
 hi String guifg=#D9766D ctermfg=9
 hi Character guifg=#A77CCF ctermfg=13
 
-hi Identifier guifg=#5FB8B4 ctermfg=6
+hi Identifier gui=none guifg=#5FB8B4 cterm=none ctermfg=6
 hi Function guifg=#5FB8B4 ctermfg=6
 hi Keyword guifg=#5FB8B4 ctermfg=6
 hi Statement guifg=#DD619F ctermfg=5
@@ -79,7 +79,7 @@ hi SpecialKey guifg=#8A7678 ctermfg=11
 hi Directory guifg=#DD619F ctermfg=5
 hi SpecialKey guifg=#479CB5 ctermfg=4
 hi MoreMsg guifg=#8A7678 ctermfg=11
-hi Question guifg=#CD4679 ctermfg=1
+hi Question gui=none guifg=#CD4679 cterm=none ctermfg=1
 hi VimOption guifg=#D9A652 ctermfg=3
 hi VimGroup guifg=#DD619F ctermfg=5
 hi Underlined guifg=#D9766D ctermfg=9
