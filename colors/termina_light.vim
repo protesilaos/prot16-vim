@@ -16,10 +16,10 @@ let g:colors_name = "termina_light"
 hi Normal guibg=#F1E2CD guifg=#71624D ctermbg=none ctermfg=10
 
 hi Comment gui=italic guifg=#A1927D cterm=italic ctermfg=12
-hi Todo gui=bold guibg=#E1D2BD guifg=#A3636D cterm=bold ctermbg=7 ctermfg=5
+hi Todo gui=none guibg=#E1D2BD guifg=#A3636D cterm=none ctermbg=7 ctermfg=5
 
-hi Warning gui=bold guibg=#9A813D guifg=#1A2225 cterm=bold ctermbg=3 ctermfg=8
-hi Error gui=bold guibg=#985637 guifg=#1A2225 cterm=bold ctermbg=1 ctermfg=8
+hi Warning gui=none guibg=#9A813D guifg=#1A2225 cterm=none ctermbg=3 ctermfg=8
+hi Error gui=none guibg=#985637 guifg=#1A2225 cterm=none ctermbg=1 ctermfg=8
 
 " Constructs
 " -----------------
@@ -60,7 +60,7 @@ hi Special guifg=#9D6A47 ctermfg=9
 hi SpecialChar guifg=#A3636D ctermfg=5
 hi Tag guifg=#8479A6 ctermfg=13
 hi Delimeter guifg=#71624D ctermfg=10
-hi SpecialComment gui=bold guifg=#9A813D cterm=bold ctermfg=3
+hi SpecialComment gui=none guifg=#9A813D cterm=none ctermfg=3
 hi Debug guifg=#985637
 
 " Other
@@ -68,7 +68,7 @@ hi Debug guifg=#985637
 hi LineNr guifg=#A1927D ctermfg=12
 hi Cursor guifg=#71624D ctermfg=10
 hi CursorLine gui=none guibg=#E1D2BD cterm=none ctermbg=7
-hi CursorLineNr gui=bold guibg=#E1D2BD guifg=#5A6265 cterm=bold ctermbg=7 ctermfg=11
+hi CursorLineNr gui=none guibg=#E1D2BD guifg=#5A6265 cterm=none ctermbg=7 ctermfg=11
 hi ColorColumn guibg=#A1927D ctermbg=12
 
 hi Folded guibg=#E1D2BD guifg=#1A2225 ctermbg=7 ctermfg=8
@@ -88,12 +88,12 @@ hi Ignore guifg=#9A813D ctermfg=5
 " Diffs
 " -----------------
 hi DiffAdd guibg=#728852 guifg=#1A2225 ctermbg=2 ctermfg=8
-hi DiffDelete gui=bold guibg=#985637 guifg=#1A2225 ctermbg=1 cterm=bold ctermfg=8
+hi DiffDelete gui=none guibg=#985637 guifg=#1A2225 ctermbg=1 cterm=none ctermfg=8
 hi DiffChange guibg=#9D6A47 guifg=#1A2225 ctermbg=9 ctermfg=8
-hi DiffText gui=bold guibg=#A3636D guifg=#1A2225 cterm=bold ctermbg=5 ctermfg=8
+hi DiffText gui=none guibg=#A3636D guifg=#1A2225 cterm=none ctermbg=5 ctermfg=8
 
 hi diffAdded guifg=#728852 ctermfg=2
 hi diffRemoved guifg=#985637 ctermfg=1
-hi diffNewFile gui=bold guifg=#597899 ctermfg=4
-hi diffFile gui=bold guifg=#9A813D cterm=bold ctermfg=3
+hi diffNewFile gui=none guifg=#597899 ctermfg=4
+hi diffFile gui=none guifg=#9A813D cterm=none ctermfg=3
 

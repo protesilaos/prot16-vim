@@ -16,10 +16,10 @@ let g:colors_name = "neptune_dark"
 hi Normal guibg=#282C36 guifg=#A8ACB6 ctermbg=none ctermfg=14
 
 hi Comment gui=italic guifg=#686C76 cterm=italic ctermfg=11
-hi Todo gui=bold guibg=#383C46 guifg=#A97552 cterm=bold ctermbg=0 ctermfg=1
+hi Todo gui=none guibg=#383C46 guifg=#A97552 cterm=none ctermbg=0 ctermfg=1
 
-hi Warning gui=bold guibg=#B9A552 guifg=#F0F1F8 cterm=bold ctermbg=3 ctermfg=15
-hi Error gui=bold guibg=#A97552 guifg=#F0F1F8 cterm=bold ctermbg=1 ctermfg=15
+hi Warning gui=none guibg=#B9A552 guifg=#F0F1F8 cterm=none ctermbg=3 ctermfg=15
+hi Error gui=none guibg=#A97552 guifg=#F0F1F8 cterm=none ctermbg=1 ctermfg=15
 
 " Constructs
 " -----------------
@@ -60,7 +60,7 @@ hi Special guifg=#48B788 ctermfg=2
 hi SpecialChar guifg=#A97552 ctermfg=1
 hi Tag guifg=#C789A6 ctermfg=5
 hi Delimeter guifg=#A8ACB6 ctermfg=14
-hi SpecialComment gui=bold guifg=#C78956 cterm=bold ctermfg=9
+hi SpecialComment gui=none guifg=#C78956 cterm=none ctermfg=9
 hi Debug guifg=#B9A552
 
 " Other
@@ -68,7 +68,7 @@ hi Debug guifg=#B9A552
 hi LineNr guifg=#686C76 ctermfg=11
 hi Cursor guifg=#A8ACB6 ctermfg=14
 hi CursorLine gui=none guibg=#383C46 cterm=none ctermbg=0
-hi CursorLineNr gui=bold guibg=#383C46 guifg=#808188 cterm=bold ctermbg=0 ctermfg=12
+hi CursorLineNr gui=none guibg=#383C46 guifg=#808188 cterm=none ctermbg=0 ctermfg=12
 hi ColorColumn guibg=#686C76 ctermbg=11
 
 hi Folded guibg=#383C46 guifg=#F0F1F8 ctermbg=0 ctermfg=15
@@ -88,12 +88,12 @@ hi Ignore guifg=#C78956 ctermfg=1
 " Diffs
 " -----------------
 hi DiffAdd guibg=#48B788 guifg=#F0F1F8 ctermbg=2 ctermfg=15
-hi DiffDelete gui=bold guibg=#A97552 guifg=#F0F1F8 ctermbg=1 cterm=bold ctermfg=15
+hi DiffDelete gui=none guibg=#A97552 guifg=#F0F1F8 ctermbg=1 cterm=none ctermfg=15
 hi DiffChange guibg=#C78956 guifg=#F0F1F8 ctermbg=9 ctermfg=15
-hi DiffText gui=bold guibg=#C789A6 guifg=#F0F1F8 cterm=bold ctermbg=5 ctermfg=15
+hi DiffText gui=none guibg=#C789A6 guifg=#F0F1F8 cterm=none ctermbg=5 ctermfg=15
 
 hi diffAdded guifg=#48B788 ctermfg=2
 hi diffRemoved guifg=#A97552 ctermfg=1
-hi diffNewFile gui=bold guifg=#3C8CBB ctermfg=4
-hi diffFile gui=bold guifg=#B9A552 cterm=bold ctermfg=3
+hi diffNewFile gui=none guifg=#3C8CBB ctermfg=4
+hi diffFile gui=none guifg=#B9A552 cterm=none ctermfg=3
 
