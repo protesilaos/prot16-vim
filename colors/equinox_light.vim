@@ -1,7 +1,7 @@
 " Name: Equinox light
 " Author: Protesilaos Stavrou <public@protesilaos.com>
 " URL: https://protesilaos.com/equinox
-" Version: 0.1.0.beta-20170310
+" Version: 0.2.0.beta-20170514
 
 set background=light
 hi clear
@@ -16,6 +16,14 @@ hi Normal guibg=#FCFAFE guifg=#3C3A3E ctermbg=none ctermfg=10
 hi Visual guibg=#2D2931 guifg=#ADA9B1 ctermbg=0 ctermfg=14
 hi Search guibg=#369AA6 guifg=#FCFAFE ctermbg=6 ctermfg=15
 
+hi StatusLine gui=none,bold guibg=#ECEAEE guifg=#3C3A3E cterm=none,bold ctermbg=7 ctermfg=10
+hi StatusLineNC gui=none guibg=#ECEAEE guifg=#ADA9B1 cterm=none ctermbg=7 ctermfg=14
+hi VertSplit gui=none cterm=none
+hi TabLine gui=none guibg=#ECEAEE guifg=#7C7A7E cterm=none ctermbg=7 ctermfg=12
+hi TabLineSel gui=none guibg=#536CB2 guifg=#FCFAFE cterm=none ctermbg=4 ctermfg=15
+hi TabLineFill gui=none cterm=none
+
+hi Comment gui=italic guifg=#7D7981 cterm=italic ctermfg=11
 hi Comment gui=italic guifg=#7C7A7E cterm=italic ctermfg=12
 hi Todo gui=none guibg=#ECEAEE guifg=#CC5D9A cterm=none ctermbg=7 ctermfg=5
 

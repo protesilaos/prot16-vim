@@ -1,7 +1,7 @@
 " Name: Archaic light
 " Author: Protesilaos Stavrou <public@protesilaos.com>
 " URL: https://protesilaos.com/archaic
-" Version: 0.1.0.beta-20170310
+" Version: 0.2.0.beta-20170514
 
 set background=light
 hi clear
@@ -16,6 +16,14 @@ hi Normal guibg=#FEF1D8 guifg=#5E5138 ctermbg=none ctermfg=10
 hi Visual guibg=#3E3936 guifg=#AEA9A6 ctermbg=0 ctermfg=14
 hi Search guibg=#368876 guifg=#FEF1D8 ctermbg=6 ctermfg=15
 
+hi StatusLine gui=none,bold guibg=#EEE1C8 guifg=#5E5138 cterm=none,bold ctermbg=7 ctermfg=10
+hi StatusLineNC gui=none guibg=#EEE1C8 guifg=#AEA9A6 cterm=none ctermbg=7 ctermfg=14
+hi VertSplit gui=none cterm=none
+hi TabLine gui=none guibg=#EEE1C8 guifg=#9E9178 cterm=none ctermbg=7 ctermfg=12
+hi TabLineSel gui=none guibg=#4884AD guifg=#FEF1D8 cterm=none ctermbg=4 ctermfg=15
+hi TabLineFill gui=none cterm=none
+
+hi Comment gui=italic guifg=#7E7976 cterm=italic ctermfg=11
 hi Comment gui=italic guifg=#9E9178 cterm=italic ctermfg=12
 hi Todo gui=none guibg=#EEE1C8 guifg=#8A6BB5 cterm=none ctermbg=7 ctermfg=13
 
