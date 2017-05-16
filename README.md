@@ -1,6 +1,6 @@
 # Prot16 themes for Vim
 
-**EXPERIMENTAL. All Vim files may undergo further changes.**
+**Beta. All Vim files may undergo further refinements.**
 
 ## Installation
 
