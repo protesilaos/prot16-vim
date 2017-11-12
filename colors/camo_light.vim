@@ -1,7 +1,6 @@
 " Name: camo light
 " Author: Protesilaos Stavrou <public@protesilaos.com>
 " URL: https://protesilaos.com/camo
-" Version: 0.2.0.beta-20170514
 
 set background=light
 hi clear
