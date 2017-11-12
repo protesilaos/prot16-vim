@@ -8,7 +8,7 @@ hi clear
 if exists("syntax_on")
   syntax reset
 endif
-let g:colors_name = ""
+let g:colors_name = "neptune_light"
 
 " General
 " -----------------
