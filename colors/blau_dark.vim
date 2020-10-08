@@ -82,6 +82,7 @@ hi ColorColumn guibg=#68686f ctermbg=11
 
 hi Folded guibg=#38383f guifg=#dfdcde ctermbg=8 ctermfg=15
 hi FoldColumn guibg=#38383f guifg=#dfdcde ctermbg=8 ctermfg=15
+hi SignColumn guibg=#38383f guifg=#dfdcde ctermbg=8 ctermfg=15
 
 hi NonText guifg=#68686f ctermfg=11
 hi SpecialKey guifg=#68686f ctermfg=11
